@@ -7,7 +7,7 @@ The code uses energy-conserving centered finite differences to discretize the do
 
 The computational domain is a triply periodic box that allows a body of any geometry to be incorporated into the flow field. The body is represented in a GTS (GNU Triangulated Surface) file format. The body can be programmed to move within the flow field. The Vortex is initialized using a Lamb–Oseen vortex distribution and can be oriented to solve normal, parallel, and oblique BVI. 
 
-Reference 
+**Reference**
 
 Van Der Poel, Erwin P., et al. "A pencil distributed finite difference code for strongly turbulent wall-bounded flows." Computers & Fluids 116 (2015): 10-16.
 
