@@ -9,9 +9,9 @@ The computational domain is a triply periodic box that allows a body of any geom
 
 **Reference**
 
-Van Der Poel, Erwin P., et al. "A pencil distributed finite difference code for strongly turbulent wall-bounded flows." Computers & Fluids 116 (2015): 10-16.
+Van Der Poel, Erwin P., et al. "A pencil distributed finite difference code for strongly turbulent wall-bounded flows." *Computers & Fluids* 116 (2015): 10-16.
 
-Spandan, Vamsi, et al. "A parallel interaction potential approach coupled with the immersed boundary method for fully resolved simulations of deformable interfaces and membranes." Journal of Computational Physics 348 (2017): 567-590.
+Spandan, Vamsi, et al. "A parallel interaction potential approach coupled with the immersed boundary method for fully resolved simulations of deformable interfaces and membranes." *Journal of Computational Physics* 348 (2017): 567-590.
 
  
 
