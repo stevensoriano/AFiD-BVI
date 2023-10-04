@@ -25,10 +25,14 @@ List of input and output files
 ------------------------------
 
 Input files (.in)
- *  bou.in - Detailed information of the input variables is given in the next section
- *  spos.in - Initial position of the body in the flow field 
+ *  bou.in - Detailed information on the input variables is given in the next section
+ *  spos.in - Initial position of the body in the computational domain 
  *  stst2.in 
 
+Output data directories
+* flowmov - directory containing h5 files of flow field data (vorticity, velocity, and pressure)
+* vtkfiles - directory containing vtk files of body force data (pressure)
+  
 Output data files (.h5)
  * continua_vx.h5
  * continua_vy.h5
@@ -79,7 +83,8 @@ IDTV            : if (IDTV = 1) variable time stepping
                   if (IDTV = 0) fixed time stepping
 DTMAX           : Maximum time step for variable time stepping
 
-MOVIE           : if (MOVIE = 1) flow field is saved for visualization
+MOVIE           : if (MOVIE = 1) flow field is saved for visualization, h5 files are stored in
+                  directory flowmov
                   if (MOVIE = 0) flow field is not saved
 DUMPMOVIET      : Timestep to save the flow field
 
@@ -88,3 +93,4 @@ VORTSPEED:      : Vortex circulation
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```
+
