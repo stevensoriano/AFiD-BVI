@@ -28,6 +28,7 @@ Input files (.in)
  *  bou.in - Detailed information on the input variables is given in the next section
  *  mlspart.in - Input variables for the immersed bodies
  *  spos.in - Initial position of the body in the computational domain
+ *  ppart.in
  *  stst2.in 
 
 Output data directories
