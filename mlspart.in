@@ -7,4 +7,4 @@ WCHECK  FCHECK  WCUB    WEXP    NEL (27 or 125)
  Kelas    Kbend   Kvol   KTotAr   KLocAr   KVisc  KColl   CVirt
   0.11     0.005   5.0      0.11    0.1     0.00    0.0     0.0
  GTSFX                  DATFX (file id for restart)
- cylinder_7.gts          resta
+ cylinder.gts          resta
