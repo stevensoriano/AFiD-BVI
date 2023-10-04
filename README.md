@@ -15,7 +15,7 @@ Spandan, Vamsi, et al. "A parallel interaction potential approach coupled with t
 
 ## Usage
 
-Consult the manual for details on the code input parameters. An example usage of the code can be found here.
+Consult the [manual](MANUAL.md) for details on the code input parameters. An example usage of the code can be found here.
 
 ## Installation 
 
