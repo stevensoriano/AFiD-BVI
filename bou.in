@@ -1,0 +1,18 @@
+ N1M  N2M   N3M   NSST   NWRIT NREAD 
+ 624  624   1872    3      1    0
+ NTST   TFRAME     TPIN      TMAX    WALLTIMEMAX   IRESET 
+ 10000    1000     1e-3      5.0       1650000        0
+ XLEN YLEN ZLEN
+ 3.0   3.0  9.0
+  REN     DT      RESID    CFLMAX
+ 1.0e+3 1e-6       1e-2      1.2
+ TSTA  STAREAD
+ 0.0    0
+ TL         EPSSTAR       KFMAX
+ 8.48e-2    0.0           2.3
+ IDTV(0=dt fisso,1=var.)     DTMAX(per dt var.)   CFLLIM(per dt fisso)
+   1                         2e-3                1.0
+ MOVIE   DUMPMOVIET
+   1       0.1
+ VORTR   VORTSPEED
+  0.095     0.419

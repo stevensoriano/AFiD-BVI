@@ -1,0 +1,10 @@
+IMLSFORC  IMLSSTRUC   IMLSREF   PREAD
+    1        1          0       0
+WCHECK  FCHECK  WCUB    WEXP    NEL (27 or 125)
+  1        0       0       1     27
+ WCON      WSCL     SCLF  RHOP 
+ 0.50       1.51    10.0   1.0
+ Kelas    Kbend   Kvol   KTotAr   KLocAr   KVisc  KColl   CVirt
+  0.11     0.005   5.0      0.11    0.1     0.00    0.0     0.0
+ GTSFX                  DATFX (file id for restart)
+ cylinder_7.gts          resta
