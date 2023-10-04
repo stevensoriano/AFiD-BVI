@@ -9,9 +9,34 @@ The computational domain is a triply periodic box that allows a body of any geom
 
 **Reference**
 
-Van Der Poel, Erwin P., et al. "A pencil distributed finite difference code for strongly turbulent wall-bounded flows." *Computers & Fluids* 116 (2015): 10-16.
+Van Der Poel, Erwin P., et al. "A pencil distributed finite difference code for strongly turbulent wall-bounded flows." *Computers & Fluids* 116 (2015): 10-16. https://www.sciencedirect.com/science/article/pii/S0045793015001164
 
-Spandan, Vamsi, et al. "A parallel interaction potential approach coupled with the immersed boundary method for fully resolved simulations of deformable interfaces and membranes." *Journal of Computational Physics* 348 (2017): 567-590.
+Spandan, Vamsi, et al. "A parallel interaction potential approach coupled with the immersed boundary method for fully resolved simulations of deformable interfaces and membranes." *Journal of Computational Physics* 348 (2017): 567-590. https://www.sciencedirect.com/science/article/pii/S0021999117305442
+
+## Usage
+
+Consult the manual for details on the code input parameters. An example usage of the code can be found here.
+
+## Installation 
+
+### Prerequisites
+
+* MPI
+* BLAS
+* LAPACK
+* FFTW3
+* HDF5 with parallel I/O
+
+The provided Makefile was used to compile the code on Carya at the Research Computing Data Core (RCDC) at the University of Houston. The following modules were loaded before compiling.
+
+```bash
+module load intel
+module load FFTW
+module load HDF5
+```
+
+
+
 
  
 
