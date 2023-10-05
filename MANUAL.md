@@ -11,13 +11,13 @@ The main loop with the integration scheme can be found in TimeMarcher.F90. It ca
  * ImplicitAndUpdateVY
  * ImplicitAndUpdateVZ
  * ImplicitAndUpdateTemp
- * update_halo 2x
+ * update_halo
  * CalculateLocalDivergence
  * SolvePressureCorrection
  * update_halo
  * CorrectVelocity
  * CorrectPressure
- * update_halo 5x
+ * update_halo
  * CalcMLSForce
  * MLSForceVelocity
 
