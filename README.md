@@ -19,7 +19,9 @@ Some features are:
 - Provision for handling multiple deformable bodies, which are represented using an Immersed Boundary approach
 - An interaction-potential approach allows for the deformation of the immersed bodies
 - Moving Least Squares (MLS) is used for the information exchange
-- Parallelised using MPI pencils
+- Pencil-type domain decomposition
+- Hybrid MPI/Open MP parallelization
+- [2DECOMP&FFT](https://github.com/2decomp-fft/2decomp-fft) library for global data transpositions
 
 ## Usage 
 
