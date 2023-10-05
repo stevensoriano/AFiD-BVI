@@ -37,7 +37,7 @@ Consult the [manual](MANUAL.md) for details on the code input parameters. An exa
 * FFTW3
 * HD5 with parallel I/O
 
-The provided Makefile was used to compile the code on Carya at the Research Computing Data Core (RCDC) at the University of Houston. The following modules were loaded before compiling.
+The Makefile on the main page was utilized for code compilation on the Carya system, part of the Research Computing Data Core (RCDC) at the University of Houston. Prior to compilation, the following specific modules were loaded.
 
 ```bash
 module load intel
