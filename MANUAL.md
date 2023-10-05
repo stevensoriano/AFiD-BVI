@@ -33,7 +33,7 @@ Input files (.in)
 
 Output data directories
 * flowmov - directory containing h5 files of flow field data (vorticity, velocity, and pressure)
-* vtkfiles - directory containing vtk files of body force data (pressure)
+* vtkfiles - directory containing vtk files of body force data 
   
 Output data files (.h5)
  * continua_vx.h5
