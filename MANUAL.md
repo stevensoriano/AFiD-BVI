@@ -26,9 +26,9 @@ List of input and output files
 
 Input files (.in)
  *  bou.in - Detailed information on the input variables is given in the next section
- *  mlspart.in - Input variables for the immersed bodies
- *  spos.in - Initial position of the body in the computational domain
- *  ppart.in
+ *  mlspart.in - Input variables for the immersed bodies, given in the next section
+ *  spos.in - Initial position of the body/bodies in the computational domain
+ *  ppart.in - Point particle input variables
  *  stst2.in 
 
 Output data directories
@@ -96,3 +96,24 @@ VORTSPEED:      : Vortex circulation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```
 
+Input Variables in mlspart.in
+-------------------------
+```
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+mlspart.in
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IMLSFORC        : if (IMLSFORC = 1) MLS forcing onto the flow is turned on
+                  if (IMLSFORC = 0) MLS forcing turned off
+IMLSSTRUC       : if (IMLSSTRUC = 1) structural solver for deforming the object is turned on
+                  if (IMLSFORC = 0) structural solver is turned off
+PREAD           : if (PREAD = 1) read in the position of the bodies rather than starting them from spos.in coordinates
+                  if (PREAD = 0) position bodies at spos.in coordinates
+
+SCLF            : Scale factor for the objects
+RHOP            : Density of the particle
+
+GTSFX           : GTS file/files to be read in
+DATFX           : Name of restart file for the objects
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+```
