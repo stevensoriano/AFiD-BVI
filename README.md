@@ -23,7 +23,7 @@ Some features are:
 
 ## Usage 
 
-Consult the [manual](MANUAL.md) for details on the code input parameters. An example usage of the code can be found here.
+Consult the [manual](MANUAL.md) for details on the code input parameters. An example usage of the code can be found [here](https://github.com/stevensoriano/AFiD-BVI/blob/main/example/AFiD_BVI_Example.pdf).
 
 ## Installation 
 
