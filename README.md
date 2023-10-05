@@ -1,7 +1,7 @@
 # AFID-BVI
 A highly parallel application for Blade-Vortex Interactions (BVI).
 
-AFiD-BVI is a code for parallel numerical simulations of Blade-Vortex Interactions (BVI) built from https://github.com/PhysicsofFluids/AFiD. The code will solve the fluid flow of an incompressible Newtonian fluid coupled with fluid-structure interactions.
+AFiD-BVI is a code for parallel numerical simulations of Blade-Vortex Interactions (BVI) built from [AFiD](https://github.com/PhysicsofFluids/AFiD). The code will solve the fluid flow of an incompressible Newtonian fluid coupled with fluid-structure interactions.
 
 The code uses energy-conserving centered finite differences to discretize the domain spatially. Time marching is done third-order Runge-Kutta for the non-linear terms and second-order Crank-Nicolson for the viscous terms. Using a moving least squares formulation, the Immersed Boundary Method (IBM) is used to incorporate the body into the flow field.
 
