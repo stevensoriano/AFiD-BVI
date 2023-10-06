@@ -101,9 +101,9 @@ Input Variables in mlspart.in
 mlspart.in
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 IMLSFORC        : if (IMLSFORC = 1) MLS forcing onto the flow is turned on
-                  if (IMLSFORC = 0) MLS forcing turned off
-IMLSSTRUC       : if (IMLSSTRUC = 1) structural solver for deforming the object is turned on
-                  if (IMLSFORC = 0) structural solver is turned off
+                  if (IMLSFORC = 0) MLS forcing onto the flow is turned off
+IMLSSTRUC       : if (IMLSSTRUC = 1) MLS forcing onto the object is turned on
+                  if (IMLSFORC = 0) MLS forcing onto the object is turned off
 PREAD           : if (PREAD = 1) read in the position of the bodies rather than starting them from spos.in coordinates
                   if (PREAD = 0) position bodies at spos.in coordinates
 
