@@ -1,0 +1,14 @@
+# Linguist overrides — ensure GitHub detects the correct language
+*.F90 linguist-language=Fortran
+*.f90 linguist-language=Fortran
+*.F linguist-language=Fortran
+
+# Compiled Fortran module files — not source code
+*.mod linguist-vendored
+*.mod linguist-generated
+
+# Other non-source files
+*.gts linguist-vendored
+*.dat linguist-vendored
+*.out linguist-vendored
+*.pdf linguist-vendored
